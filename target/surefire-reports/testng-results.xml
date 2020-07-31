@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23117" started-at="2020-07-14T11:58:14Z" finished-at="2020-07-14T11:58:37Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="14960" started-at="2020-07-14T11:58:14Z" finished-at="2020-07-14T11:58:29Z">
+      <class name="SeleniumFinal.ValidateTitleOnHomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SeleniumFinal.ValidateTitleOnHomePage@150efb8]" name="initialize" is-config="true" duration-ms="13079" started-at="2020-07-14T17:28:14Z" finished-at="2020-07-14T17:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:SeleniumFinal.ValidateTitleOnHomePage@150efb8]" name="validateTitle" duration-ms="105" started-at="2020-07-14T17:28:27Z" finished-at="2020-07-14T17:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumFinal.ValidateTitleOnHomePage@150efb8]" name="tearDown" is-config="true" duration-ms="1757" started-at="2020-07-14T17:28:27Z" finished-at="2020-07-14T17:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFinal.ValidateTitleOnHomePage -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="23117" started-at="2020-07-14T11:58:14Z" finished-at="2020-07-14T11:58:37Z">
+      <class name="SeleniumFinal.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SeleniumFinal.HomePage@1af5db5]" name="initialize" is-config="true" duration-ms="4094" started-at="2020-07-14T17:28:14Z" finished-at="2020-07-14T17:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:SeleniumFinal.HomePage@1af5db5]" name="basePageNavigation" duration-ms="13039" started-at="2020-07-14T17:28:18Z" data-provider="getData" finished-at="2020-07-14T17:28:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:SeleniumFinal.HomePage@1af5db5]" name="basePageNavigation" duration-ms="5706" started-at="2020-07-14T17:28:31Z" data-provider="getData" finished-at="2020-07-14T17:28:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumFinal.HomePage@1af5db5]" name="tearDown" is-config="true" duration-ms="256" started-at="2020-07-14T17:28:37Z" finished-at="2020-07-14T17:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFinal.HomePage -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

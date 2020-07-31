@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="SeleniumFinal.Listeners"/>
+  </listeners>
+  <test name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="SeleniumFinal.ValidateTitleOnHomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="validateNavBar"/>
+        </methods>
+      </class> <!-- SeleniumFinal.ValidateTitleOnHomePage -->
+      <class name="SeleniumFinal.HomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- SeleniumFinal.HomePage -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
